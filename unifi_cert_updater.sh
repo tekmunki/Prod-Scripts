@@ -26,6 +26,7 @@ certs_dir="$user_home/certs"
 combined_cert="${certs_dir}/combined_cert.p12"
 cert_backups_dir="${certs_dir}/backups"
 
+# regex used to find the ### comments above and print them out when needed
 help_text() {
   sed -rn 's/^### ?//;T;p' "$0"
 }
