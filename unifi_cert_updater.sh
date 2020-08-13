@@ -1,6 +1,6 @@
 #!/bin/bash
-# Script to update the java keystore the Unifi Network Controller uses for
-# certificate managment enabling use of self signed certs.
+# Script to update the java keystore that the Unifi Network Controller uses for
+# certificate managment enabling the use of self signed certs.
 # Last Modified 08/10/2020
 
 ### 
